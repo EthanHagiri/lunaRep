@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Луна</title>
+</head>
+<body>
+
+<div class="page">   
+
+<header>
+    <div class="container">
+        <div class="header__inner">
+            <a class="site-logo" href="#">
+                <picture>
+                    <source srcset="assets/images/site-logo-small.png" media="(max-width: 575px)">
+                    <img class="logo-img" src="assets/images/site-logo.png" alt="site logo">
+                </picture>
+            </a>
+            <div class="header-content">
+                <div class="header-top">
+                    <nav class="nav">
+                        <ul class="menu" id="menu">
+                            <li class="menu-item">
+                                <a class="menu-item__link" href="#">О нас</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__link" href="#">Бренды</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__link" href="#">Доставка и оплата</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__link" href="#">Полезные статьи</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-item__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <button class="burger" type="button" id="menuToggle">
+                        <span class="burgerItem">Menu</span>
+                    </button>
+                    <a class="header-phone" href="tel:+1234567890">8 (800) 100-10-10</a>
+                    <button class="header-top__btn btn-log">Войти</button>
+                    <span class="slash">|</span>
+                    <button class="header-top__btn btn-reg">Регистрация</button>
+                </div>
+                <div class="header-bot">
+                    <div class="header-bot__btn">
+                        <span class="header-bot__btn-text">Каталог</span>
+                        <img class="header-bot__btn-img" src="assets/images/catalog-icon.svg" alt="">
+                    </div>
+                    <form class="header-form" action="">
+                        <input class="header-input" type="text" placeholder="Поиск товаров">
+                        <button class="btn-search">
+                            <span class="btn-icon">
+                                <svg width="15" height="15" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.875 12.2451C9.63642 12.2451 11.875 10.0065 11.875 7.24512C11.875 4.48369 9.63642 2.24512 6.875 2.24512C4.11358 2.24512 1.875 4.48369 1.875 7.24512C1.875 10.0065 4.11358 12.2451 6.875 12.2451Z" stroke="#BABABA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13.125 13.4951L10.4063 10.7764" stroke="#BABABA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </form>
+                    <span class="header-bot__btn-address">Ижевск,<br>ул. Пушкинская, 123</span>
+                    <a class="fav-link" href="#">
+                        <span class="header-icon">
+                            <img class="header-icon__img" src="assets/images/header-heart.svg" alt="избранное">
+                        </span>
+                    </a>
+                    <a class="fav-link" href="#">
+                        <span class="header-icon">
+                            <img class="header-icon__img" src="assets/images/header-cart.svg" alt="покупки">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+
+<section>
+    <div class="intro">
+        <img src="assets/images/intro-img.jpg" alt="" class="intro-bg">
+        <div class="container">
+            <div class="intro-content">
+                <h1 class="intro-title">
+                    Скидки на сухой корм Monge -20%
+                </h1>
+                <a class="intro-btn" href="#">Подробнее</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.intro -->
+
+<section>
+    <div class="container">
+        <div class="bonus">
+            <div class="bonus-items">
+                <div class="bonus-item bonus-item__delivery">
+                    <h3 class="bonus-item__title">
+                        Быстрая доставка
+                    </h3>
+                    <p class="bonus-item__text">
+                        по Ижевску<br>
+                        при заказе от 1500₽</p>
+                </div>
+                <div class="bonus-item bonus-item__system">
+                    <h3 class="bonus-item__title">
+                        Бонусная система
+                    </h3>
+                    <p class="bonus-item__text">
+                        Получайте бонусные баллы
+за каждую покупку в магазине</p>
+                </div>
+                <div class="bonus-item bonus-item__assortment">
+                    <h3 class="bonus-item__title">
+                        Огромный ассортимент
+                    </h3>
+                    <p class="bonus-item__text">
+                        Более 5000 наименований товаров мировых брендов</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.bonus -->
+
+<section>
+    <div class="container">
+        <div class="select">
+            <h3 class="title select-title">Быстрый подбор</h3>
+            <div class="select-btn__block">
+                <button class="select-btn select-btn__top btn-active">Кошки</button>
+                <button class="select-btn select-btn__top">Собаки</button>
+            </div>
+            
+            <div class="select-form">
+                <form action="">
+                    <h4 class="select-form__title">Тип</h4>
+                    <div class="select-form__block">
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Влажные корма">
+                            <label class=select-form__text>Влажные корма</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Сухие корма">
+                            <label class=select-form__text>Сухие корма</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Лакомства">
+                            <label class=select-form__text>Лакомства</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Наполнители для туалетов">
+                            <label class=select-form__text>Наполнители для туалетов</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Игрушки">
+                            <label class=select-form__text>Игрушки</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Когтеточки и комплексы для кошек">
+                            <label class=select-form__text>Когтеточки и комплексы для кошек</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Когтеточки и комплексы для кошек">
+                            <label class=select-form__text>Когтеточки и комплексы для кошек</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Когтеточки и комплексы для кошек">
+                            <label class=select-form__text>Когтеточки и комплексы для кошек</label>
+                        </div>
+                    </div>
+                </form>
+                <div class="arrow-1">
+                    <div></div>
+                </div>
+                <form action="">
+                    <h4 class="select-form__title">Возраст животного</h4>
+                    <div class="select-form__block">
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="до 1 года">
+                            <label class=select-form__text>до 1 года</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="1-6 лет (взрослые)">
+                            <label class=select-form__text>1-6 лет (взрослые)</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Лакомства">
+                            <label class=select-form__text>от 7 лет (пожилые)</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="все">
+                            <label class=select-form__text>все</label>
+                        </div>
+                    </div>
+                </form>
+                <div class="arrow-1">
+                    <div></div>
+                </div>
+                <form action="">
+                    <h4 class="select-form__title">Бренд</h4>
+                    <div class="select-form__block">
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Deko">
+                            <label class=select-form__text>Deko</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="ELesco">
+                            <label class=select-form__text>ELesco</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="FLUXAN">
+                            <label class=select-form__text>FLUXAN</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="Grasso">
+                            <label class=select-form__text>Grasso</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="HOUSE">
+                            <label class=select-form__text>HOUSE</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="INNESCO">
+                            <label class=select-form__text>INNESCO</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="INNESCO">
+                            <label class=select-form__text>INNESCO</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="HOUSE">
+                            <label class=select-form__text>HOUSE</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="INNESCO">
+                            <label class=select-form__text>INNESCO</label>
+                        </div>
+                        <div class="select-form__row">
+                            <input type="checkbox" class="select-checkbox"value="INNESCO">
+                            <label class=select-form__text>INNESCO</label>
+                        </div>
+                    </div>
+                </form> 
+            </div>
+            <button class="select-btn btn-bottom">Подобрать</button>
+        </div>
+    </div>
+</section>
+<!-- /.select -->
+
+<section class="checki">
+    <div class="container">
+        <div class="share">
+            <h3 class="title share-title">Акция H2</h3>
+            <div class="slider share-slider">
+                <div class="check">
+                    <div class="share-items">
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon3.svg" alt="скидка" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty1.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon3.svg" alt="скидка" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Влажный корм для собак Pedigree курица 28шт. х 85г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">575 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty2.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Лакомство дляlore кошек Dreamies, 140г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">102 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty3.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Сухой корм для стерилизованных кошек Perfect Fit с курицей</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">200 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty4.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Комбинезон для собак Triol Disney Stitch голубой/малиновый</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">849 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="check">
+                    <div class="share-items">
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon3.svg" alt="скидка" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty1.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Влажный корм для собак Pedigree курица 28шт. х 85г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">575 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty2.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Лакомство дляlore кошек Dreamies, 140г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">102 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty3.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Сухой корм для стерилизованных кошек Perfect Fit с курицей</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">200 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty4.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Комбинезон для собак Triol Disney Stitch голубой/малиновый</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">849 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.share -->
+
+<section>
+    <div class="container">
+        <div class="hits">
+            <h3 class="title hits-title">Хиты продаж</h3>
+            <div class="slider hits-slider">
+                <div>
+                    <div class="hits-items">
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon3.svg" alt="скидка" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty1.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Влажный корм для собак Pedigree курица 28шт. х 85г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">575 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty2.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Лакомство дляlore кошек Dreamies, 140г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">102 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty3.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Сухой корм для стерилизованных кошек Perfect Fit с курицей</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">200 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty4.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Комбинезон для собак Triol Disney Stitch голубой/малиновый</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">849 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div>
+                    <div class="hits-items">
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon3.svg" alt="скидка" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty1.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Влажный корм для собак Pedigree курица 28шт. х 85г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">575 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty2.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Лакомство дляlore кошек Dreamies, 140г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">102 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty3.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Сухой корм для стерилизованных кошек Perfect Fit с курицей</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">200 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty4.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Комбинезон для собак Triol Disney Stitch голубой/малиновый</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">849 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section> 
+<!-- /.hits -->
+
+<section>
+    <div class="container">
+        <div class="sale__inner">
+            <div class="sale-left">
+                <img class="sale-left__image" src="assets/images/sale1.jpg" alt="asd">
+                <div class="sale-content sale-content__left-site">
+                    <h3 class="sale-title sale-title__left-site">Скидка по понедельникам</h3>
+                    <p class="sale-text sale-text__left-site">на сухие корма для собак Monge</p>
+                    <div class="sale-percent">-30%</div>
+                    
+                </div>
+                <a class="sale-link sale-link__left-site" href="#">Подробнее</a>
+            </div>
+            <div class="sale-right">
+                <div class="sale-right__block sale-right__first-block">
+                    <img class="sale-right__first-image" src="assets/images/sale2.jpg" alt="">
+                    <div class="sale-content sale-content__right-first">
+                        <h3 class="sale-title ">Корма<br>
+                            для кошек</h3>                     
+                    </div>
+                    <a class="sale-link sale-link__right-site" href="#">Подробнее</a>
+                </div>
+                <div class="sale-right__block sale-right__second-block">
+                    <img class="sale-right__second-image" src="assets/images/sale3.png" alt="">
+                    <div class="sale-content sale-content__right-second">
+                        <h3 class="sale-title sale-title__right-site">2&nbsp;=&nbsp;1</h3>
+                        <p class="sale-text sale-text__right-site">Два корма Hills для кошек
+                            по цене 1</p>                      
+                    </div>
+                    <a class="sale-link sale-link__right-site sale-right__btn-bottom" href="#">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.sale -->
+
+<section>
+    <div class="container">
+        <div class="novelty">
+            <h3 class="title novelty-title">Новинки</h3>
+            <div class="slider novelty-slider">
+                <div>
+                    <div class="novelty-items">
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon3.svg" alt="скидка" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty1.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Влажный корм для собак Pedigree курица 28шт. х 85г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">575 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                   
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty2.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Лакомство дляlore кошек Dreamies, 140г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">102 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty3.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Сухой корм для стерилизованных кошек Perfect Fit с курицей</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">200 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty4.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Комбинезон для собак Triol Disney Stitch голубой/малиновый</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">849 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="novelty-items">
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon3.svg" alt="скидка" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty1.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Влажный корм для собак Pedigree курица 28шт. х 85г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">575 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                   
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty2.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Лакомство дляlore кошек Dreamies, 140г</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">102 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                    <li class="card-icon"><img src="assets/images/novelty-icon2.svg" alt="новый товар" class="card-image"></li>
+                                    
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty3.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Сухой корм для стерилизованных кошек Perfect Fit с курицей</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">200 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-visual">
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/novelty-icon1.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                                <div class="card__item-picture">
+                                    <img src="assets/images/novelty4.jpg" alt="" class="card__item-image">
+                                </div>
+                                <ul class="card-icons">
+                                    <li class="card-icon"><img src="assets/images/heart.svg" alt="хит продаж" class="card-image"></li>
+                                </ul>
+                            </div>
+                            <p class="card-item__name">Комбинезон для собак Triol Disney Stitch голубой/малиновый</p>
+                            <div class="card-purchase">
+                                <p class="card-item__price">849 &#x20bd</p>
+                                <button class="btn-basket card-btn">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section> 
+<!-- /.novelty -->
+
+<section>
+    <div class="benefits">
+        <div class="container">
+            <div class="benefits__inner">
+                <div class="benefits-items">
+                    <div class="benefits-item">
+                        <h4 class="benefits-item__title benefits-item__title-cat">Для кошек</h4>
+                        <p class="benefits-item__text">Основу рациона домашних любимцев на 60-70% должны составлять мясные продукты, которые являются основным источником белка, жирных кислот, фосфора, витаминов группы В.</p>
+                        <a href="#" class="benefits-item__link">Читать дальше</a>
+                    </div>
+                    <div class="benefits-item">
+                        <h4 class="benefits-item__title benefits-item__title-dog">Для собак</h4>
+                        <p class="benefits-item__text">Даже небольшая разница в пищевой ценности кормов может значительно влиять на жизнь и здоровье вашего питомца.</p>
+                        <a href="#" class="benefits-item__link">Читать дальше</a>
+                    </div>
+                </div>
+                <div class="benefits-content">
+                    <h3 class="benefits-title">Все необходимое для вашего питомца в нашем магазине</h3>
+                    <p class="benefits-text">Наш магазин располагает любыми товарами от лучших производителей, включая различные виды кормов, медицинские ветеринарные препараты, множество различных аксессуаров. У нас вы найдете широкий ассортимент, который постоянно обновляется, учитывая конъюнктуру рынка и потребительский спрос.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.benefits -->
+
+<section>
+    <div class="brands">
+        <div class="container">
+            <h3 class="title brands-title">Популярные бренды</h3>
+            <div class="brands-items">
+                <div class="brand-item">
+                    <a class="brand-link" href="#">
+                        <img class="brand-image" src="assets/images/brands1.jpg" alt="бренд 1 лого">
+                    </a>
+                </div>
+                <div class="brand-item">
+                    <a class="brand-link" href="#">
+                        <img class="brand-image" src="assets/images/brands2.jpg" alt="бренд 2 лого">
+                    </a>
+                </div>
+                <div class="brand-item">
+                    <a class="brand-link" href="#">
+                        <img class="brand-image" src="assets/images/brands3.jpg" alt="бренд 3 лого">
+                    </a>
+                </div>
+                <div class="brand-item">
+                    <a class="brand-link" href="#">
+                        <img class="brand-image" src="assets/images/brands4.jpg" alt="бренд 4 лого">
+                    </a>
+                </div>
+                <div class="brand-item">
+                    <a class="brand-link" href="#">
+                        <img class="brand-image" src="assets/images/brands5.jpg" alt="бренд 5 лого">
+                    </a>
+                </div>
+            </div>
+            <a class="brands-link" href="#">Все бренды</a>
+        </div>
+    </div>
+</section>
+<!-- /.brands -->
+
+<section>
+    <div class="newsletter">
+        <div class="container">
+            <div class="newsletter__inner">
+                <p class="newsletter-text">Подпишитесь на рассылку и получай новости об акциях и скидках первыми!</p>
+                <div class="subscribe">
+                    <form class="sub-form" action="#">
+                        <input class="sub-form__input" type="text" placeholder="Введите Ваш e-mail">
+                        <button class="btn sub-form__btn" type="submit">Подписаться</button>
+                    </form>
+                    <p class="subscribe-rights">Нажимая кнопку «Подписаться», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.newsletter -->
+
+
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer__inner">
+            <div class="contacts">
+                <address class="contacts-address contact-icon">Ижевск,<br>ул. Пушкинская, 123</address>
+                <a class="contacts-phone contact-icon" href="tel:+1234567890">8 (800) 100-10-10</a>
+                <p class="contacts-work contact-icon">пн - вс: 10:00 - 20:00</p>
+                <a class="contacts-mail contact-icon" href="mailto:sale@petstore.ru">sale@petstore.ru</a>
+            </div>
+            <div class="footer__block footer-catalog">
+                <h3 class="footer__block-title">Каталог</h3>
+                <a class="footer__block-text" href="#">Кошки</a>
+                <a class="footer__block-text" href="#">Собаки</a>
+            </div>
+            <div class="footer__block footer-buyers">
+                <h3 class="footer__block-title">Покупателям</h3>
+                <a class="footer__block-text" href="#">Бренды</a>
+                <a class="footer__block-text" href="#">Доставка и оплата</a>
+                <a class="footer__block-text" href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__block">
+                <h3 class="footer__block-title">О компании</h3>
+                <a class="footer__block-text" href="#">О нас</a>
+                <a class="footer__block-text" href="#">Контакты</a>
+            </div>
+        </div>
+        
+        <div class="horizontal-line line-bottom"></div>
+        <div class="footer-bottom">
+            <p>2021 © «<a class="footer-bottom__link" href="#">Крайт: Зоотовары.Pets</a>»</p>
+            <p>Разработка сайта - «<a class="footer-bottom__link" href="#">Светлая голова</a>»</p>
+        </div>   
+    </div>
+</footer>
+</div> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
